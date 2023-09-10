@@ -17,7 +17,7 @@ let isLoginIn = 1;
 let isLoginInBoolean = Boolean(isLoginIn);
 console.log(typeof isLoginInBoolean);
 
-
+///string to number
 let string = "33";
 let stringToNumber = Number(string);
 console.log(stringToNumber);
