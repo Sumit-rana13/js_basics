@@ -36,20 +36,21 @@ var obj = {
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //  Primitive datatype use Stack 
-// Non-Primitive datatype use Heap
+//  Non-Primitive datatype use Heap
 
 let mychannel = "duckcom"
 let anotherChannel = mychannel;
 
 console.table([mychannel,anotherChannel]);
 
+
+
 let userOne ={
     name :"Sumit",
     id : 123
 }
-
 let userTwo = userOne;
-userOne.name ="Akash";
-
+userOne.name ="Akash";  // by changing the value in userOne object userTwo object value also changed because
+                        // in non-primtive type reference address is used .
 console.log(userOne);
 console.log(userTwo);
