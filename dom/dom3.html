@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   
+</body>
+<script>
+    const div= document.createElement("div")
+    console.log(div);
+    div.className = "main"
+    div.id = Math.floor(Math.random()*10 +1)
+    div.setAttribute("title" , "generate_title")    //setAttribute directly write the new value ....take one round trip
+    div.style.backgroundColor = "green"
+
+    // div.innerText = "chai aur code"               //innerText first take the reference and then overwrite the value ....take 2 round trip
+
+    const addText = document.createTextNode("chai aur code")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+    
+</script>
+</html>
