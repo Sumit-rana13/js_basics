@@ -66,3 +66,10 @@ function userHandle(anyobject){
             // }
             // console.log(square(4));
 
+
+
+
+
+// function sum(){}            
+// ()=>{}
+// const sum = function(){}

@@ -28,3 +28,7 @@
 //  continue => it just skip the current statement
 
 /* forEach( function(){})  similar to forEach( ()=>{}) */
+
+
+// div.setAttribute("title" , "generate_title")    //setAttribute directly write the new value ....take one round trip
+ // div.innerText = "chai aur code"               //innerText first take the reference and then overwrite the value ....take 2 round trip
