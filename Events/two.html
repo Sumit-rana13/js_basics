@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #121212; color: white;">
+    <h1>Chai aur Code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    // setTimeout(function(){
+    //     console.log("sumit");
+    // },2000)
+
+    const saySumit = function(){
+        console.log("Sumit");
+    }
+    const changeName = function(){
+        document.querySelector("h1").textContent = "JavaSCript Series"
+    }
+    
+    // setTimeout(saySumit,2000)  
+    // setTimeout(changeName,2000)  
+
+
+
+    const changeMe = setTimeout(changeName,2000) ;
+    document.getElementById("stop").addEventListener("click",function(){
+        clearTimeout(changeMe)
+        console.log("stop");
+    })
+    
+
+    
+
+
+</script>
+</html>
