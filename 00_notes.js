@@ -32,3 +32,35 @@
 
 // div.setAttribute("title" , "generate_title")    //setAttribute directly write the new value ....take one round trip
  // div.innerText = "chai aur code"               //innerText first take the reference and then overwrite the value ....take 2 round trip
+
+
+// by default bubbling  propagation is enable to disable this just change third parameter true      
+// what is Garbage collector and removeEventListeners 
+
+// functions -------------------
+//  1. function Statement aka function Declartion
+function a(){
+    console.log("a called");
+}
+
+
+// 2.function Expression
+var b = function(){
+    console.log("b called");
+}
+
+// 3.Anonymous function
+var c = ()=>{
+    console.log("c printed");
+}
+
+// Named Function Expression
+var b = function xyz(){
+
+}
+
+// First Class Function - ability used function like a value || passed function inside function as an argument || return function as a value
+// First Class Citizens
+
+
+// Arrow Function

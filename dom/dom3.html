@@ -15,11 +15,12 @@
    
 </body>
 <script>
+    /*
     const div= document.createElement("div")
     console.log(div);
     div.className = "main"
     div.id = Math.floor(Math.random()*10 +1)
-    div.setAttribute("title" , "generate_title")    //setAttribute directly write the new value ....take one round trip
+    div.setAttribute("title" , "generate_title")    //setAttribute,createTextNode directly write the new value ....take one round trip
     div.style.backgroundColor = "green"
 
     // div.innerText = "chai aur code"               //innerText first take the reference and then overwrite the value ....take 2 round trip
@@ -27,6 +28,22 @@
     const addText = document.createTextNode("chai aur code")
     div.appendChild(addText)
     document.body.appendChild(div)
-    
+    */
+
+
+
+    const heading =  document.createElement("h1");
+    console.log(heading);
+    heading.className = "heading"
+    heading.id = "h1"
+    heading.setAttribute("title","construction")
+    heading.style.color = "red"
+    heading.style.border = "2px solid green"
+
+    const text = document.createTextNode("News with your snacks")
+    heading.appendChild(text);
+    document.body.appendChild(heading)
+
+
 </script>
 </html>

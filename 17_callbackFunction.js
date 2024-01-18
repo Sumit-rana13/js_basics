@@ -1,0 +1,11 @@
+// what is a callback function in JS
+setTimeout(function(){
+    console.log("timer");
+},5000)
+function x(y){
+    console.log("x");
+    y();
+}
+x(function y(){
+    console.log("y");
+})

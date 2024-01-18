@@ -37,7 +37,7 @@
 
 
 
-// ----- syntax 1 ------------
+// // ----- syntax 1 ------------
 // const promiseFour = new Promise(function(resolve, reject){
 //     setTimeout(function(){
 //     let error = true;
@@ -65,7 +65,7 @@
 
 
 
-// ----- syntax 2  ----------
+// // ----- syntax 2  ----------
 // const promiseFive = new Promise(function(resolve, reject){
 //     setTimeout(function(){
 //         let error = true;
@@ -90,7 +90,7 @@
 
 
 
-// --------------
+// // --------------
 // async function getAllUsers(){
 //    try {
 //         const response = await fetch("https://jsonplaceholder.typicode.com/posts" )
