@@ -64,3 +64,7 @@ var b = function xyz(){
 
 
 // Arrow Function
+
+// Higher Order Func -> A function which take another function as an input and return a function as an output
+// and the  function which is pass inside the higher order function is known as Callback function which is called sometime in the program
+// and this only possible because Function are first class citizens in JS
